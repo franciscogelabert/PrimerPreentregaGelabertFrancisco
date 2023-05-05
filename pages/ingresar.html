@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Foodier Let's find something to taste</title>
+	<link rel="icon" href="../img/ico/favicon.ico">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<nav>
+		<a href="../index.html" target="_blank">
+			<img src="../img/logo.png"
+				alt="Logo de Foodier se presenta una tabla para picar comida y un cuchillo de cocina.">
+		</a>
+
+		<form>
+			<input type="text" id="busqueda" name="busqueda">
+			<a class="urlfondooscuro" href="buscar.html">Búsqueda avanzada</a>
+		</form>
+
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="visitarperfil.html">Mi Perfil</a></li>
+			<li><a href="ingresar.html">Ingresar/Registrarse</a></li>
+			<li><a href="publicar.html">Publicar</a></li>
+
+		</ul>
+	</nav>
+
+	<header>
+		<img src="../img/header/hregistro.PNG" alt="Encabezado muestra mensaje de bienvenida.">
+	</header>
+
+	<main>
+
+		<div class="contenedorForm right">
+			<form>
+				<h2>Usuario registrado: </h2>
+
+				<div>
+					<label for="mail" class="label">Usuario:</label>
+					<input type="email" class="label" id="mail">
+				</div>
+
+				<div>
+					<label for="Password" class="label">Contraseña:</label>
+					<input type="password" class="label" id="Password">
+				</div>
+				<div>
+					<a href="">No Recuerdo Usuario/Contraseña.</a>
+				</div>
+				<div>
+					<input type="submit" class="button" value="Ingresar">
+				</div>
+			</form>
+		</div>
+
+		<div class="contenedorForm center">
+			<h2>O ingresar con: </h2>
+			<a href="https://www.facebook.com/login/device-based/regular/login">
+				<img class="imageico" src="../img/ico/facebook.png"
+					alt="Acceso a Foodier utilizando las credenciales de Facebook">
+			</a>
+			<a href="https://accounts.google.com/">
+				<img class="imageico" src="../img/ico/google.png"
+					alt="Acceso a Foodier utilizando las credenciales de Google">
+			</a>
+		</div>
+
+
+		<div class="contenedorForm right">
+			<form>
+				<h2>Registrarse: </h2>
+
+				<div>
+					<label for="mail" class="label">¿Cuál es su correo electrónico?</label>
+					<input type="email" class="label" id="mail">
+				</div>
+
+				<div>
+					<label for="Password" class="label">Ingrese una contraseña:</label>
+					<input type="password" class="label" id="Password">
+				</div>
+
+				<div>
+					<label for="user" class="label">¿Cómo quieres que te llamemos?</label>
+					<input type="text" class="label" id="user">
+				</div>
+				<div>
+					<label for="fechanac" class="label">Fecha de nacimiento:</label>
+					<input type="date" class="label" id="fechanac">
+				</div>
+				<div>
+					<label for="genero" class="label">Género:</label>
+					<select name="genero" class="label" id="genero">
+						<option value=""></option>
+						<option value="femenino">Femenino</option>
+						<option value="masculino">Masculino</option>
+						<option value="femenino">Otro</option>
+					</select>
+				</div>
+				<div>
+					<input type="checkbox" name="terminos" id="terminos" value="true">
+					<a href="#">Acepto los Términos y condiciones</a>
+				</div>
+
+				<div>
+					<input type="submit" class="button" value="Registrarse">
+					<input type="reset" class="button" value="Cancelar">
+				</div>
+			</form>
+		</div>
+
+	</main>
+
+	<footer id="footer">
+		<div>
+			<a href="../index.html" target="_blank">
+				<img src="../img/logo.png"
+					alt="Logo de Foodier se presenta una tabla para picar comida y un cuchillo de cocina.">
+			</a>
+		</div>
+		<div>
+			<ul>
+				<li><a href="#">Quienes sómos</a></li>
+				<li><a href="#">Contáctenos</a></li>
+				<li><a href="#">Atención al Cliente</a></li>
+			</ul>
+		</div>
+		<div>
+			<a href="https://api.whatsapp.com/send/?phone=5493424328372&text=%C2%A1Hola,+Fooder!&type=phone_number&app_absent=0"
+				target="_blank">
+				<img class="smallimagebox" src="../img/footer/whatsapp.png"
+					alt="Imágen para acceder al Whatsapp de Foodier, el mismo es +5493424328372">
+			</a>
+
+			<a href="https://twitter.com/?lang=es" target="_blank">
+				<img class="smallimagebox" src="../img/footer/twitter.png"
+					alt="Imágen para acceder al Twitter de Foodier.">
+			</a>
+
+		</div>
+		<div>
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13584.440841556268!2d-60.7106696!3d-31.6582044!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a907e10aa095%3A0x1712bf0876343c39!2sCasa%20de%20Gobierno%20de%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1679055589544!5m2!1ses!2sar"
+				allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</footer>
+
+</body>
+
+</html>
